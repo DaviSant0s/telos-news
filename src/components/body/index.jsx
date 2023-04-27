@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Body() {
   return (
-    <div>Body</div>
+    <div className='container'>Body</div>
   )
 }
