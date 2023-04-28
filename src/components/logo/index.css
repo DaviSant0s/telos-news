@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+img{
+    height: 23px;
+    margin-right: 0.2em;
+}
+
+span{
+    font-family: inter;
+    font-weight: 600;
+    color: black;
+    font-size: 18px;
+}
+
