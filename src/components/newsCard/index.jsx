@@ -3,29 +3,28 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import image from './image.png'
+import './index.css'
+import ButtonCard from '../ButtonCard';
 
 export default function NewsCard() {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345, padding: '0.3em'}}>
       <CardMedia
         sx={{ height: 140 }}
-        image="/static/images/cards/contemplative-reptile.jpg"
-        title="green iguana"
+        image= {image}
+        title="news"
       />
+        <div className='tech'>Tecnologia</div>
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Lizard
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+
+        <Typography variant="body2" color="text.secondary" style={{fontSize: '0.8em'}}>
+        Entenda como a tecnologia vem alterando os mais diversos tipos de relações pessoais e profissionais
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+        <ButtonCard/>
       </CardActions>
     </Card>
   )
