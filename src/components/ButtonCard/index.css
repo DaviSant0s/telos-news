@@ -1,9 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .button-container{
     width: 100%;
-    background-color: white;
+    height: 300px;
+    background-color: transparent;
     display: flex;
     flex-direction: row;
     justify-content: end;
     gap: 1em;
 
+    padding-right: 22px;
+
+}
+
+.button{
+
+    width: 200px;
+    height: 70px;
+
+    font-family: 'roboto';
+    font-size: 25px;
+    border-radius: 179.167px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px
+}
+
+.button1{
+    background: transparent;
+    border: 1px solid #EDEDED;
+    color: #6750A4;
+    
+}
+
+.button2{
+    background: #6750A4;
+    border: none;
+    color: white;
 }
