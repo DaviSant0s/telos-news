@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.coloredButton{
+
+    font-family: 'roboto';
+    border-radius: 179.167px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+
+    background: #6750A4;
+    border: none;
+    color: white;
+    
+}

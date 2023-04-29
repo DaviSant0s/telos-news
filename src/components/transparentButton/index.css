@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.transparentButton{
+
+    font-family: 'roboto';
+    border-radius: 179.167px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    background: transparent;
+    border: 1px solid #EDEDED;
+    color: #6750A4;
+}

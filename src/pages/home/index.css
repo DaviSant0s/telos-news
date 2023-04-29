@@ -11,4 +11,28 @@
 
 .mini-cards{
     width: 30%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
 }
+
+.cards{
+    background-color: #FEF7FF;
+    margin: 0 auto 0 auto;
+    width: 100%;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+}
+
+.miniCard-content{
+    margin-bottom: 5em;
+    height: 22em;
+    border-left: 1px solid #CAC4D0;
+
+}
+.readCard-content{
+
+}
+

@@ -9,8 +9,8 @@ export default function Home() {
       <div className='content-container'>
           <NewsCard />
           <div className='mini-cards'>
-              <MiniCard />
-              <ReadTooCard/>
+              <div className='miniCard-content cards'><MiniCard/></div>
+              <div className='readCard-content cards'><ReadTooCard/></div>
           </div>
       </div>
   )
