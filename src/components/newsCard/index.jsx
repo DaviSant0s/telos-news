@@ -14,10 +14,10 @@ export default function NewsCard() {
       paddingTop: '10px', 
       paddingLeft: '10px', 
       width: '50%', 
-      height: '47em', 
+      height: '56.5em', 
       borderRadius: '0px 0px 30px 30px',
       backgroundColor: '#F7F2FA',
-      boxShadow: '0px 1px 2px rgba(0, 0, 0, 0.3), 0px 2px 6px 2px rgba(0, 0, 0, 0.15)'
+      boxShadow: '0px 0px 1px rgba(0, 0, 0, 0.3), 0px 2px 6px 2px rgba(0, 0, 0, 0.15)'
       }}>
 
       <CardMedia
