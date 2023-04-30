@@ -7,8 +7,15 @@ import whiteLogo from './whiteLogo.png';
 export default function HeaderNews() {
   return (
     <div className='container-news'>
-        <Logo color={'white'} logo={whiteLogo}/>
-        <ButtonHeader color={'white'} background={'transparent'}/>
+        <div className='container-background'>
+            <div className='content-news'>
+                <Logo color={'white'} logo={whiteLogo}/>
+                <ButtonHeader color={'white'} background={'transparent'}/>
+            </div>
+        </div>
+        <div className='gradient'>
+                sobreposição
+        </div>
     </div>
   )
 }
