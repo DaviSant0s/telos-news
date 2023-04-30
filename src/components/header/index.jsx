@@ -5,6 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Divider from '@mui/material/Divider';
 import ButtonHeader from '../buttonHeader';
 import Logo from '../logo';
+import blackLogo from './brand.png'
 
 export default function Header() {
   return (
@@ -13,7 +14,7 @@ export default function Header() {
 
         <Toolbar sx={{dispay: "flex", justifyContent:"space-between"}}>
           
-          <Logo/>
+          <Logo logo={blackLogo}/>
           <ButtonHeader/>
         
         </Toolbar>

@@ -1,12 +1,11 @@
 import React from 'react';
-import brand from './brand.png';
 import "./index.css";
 
-export default function Logo() {
+export default function Logo({color, logo}) {
   return (
     <div className='logo'>
-        <img src={brand} alt="logo" />
-        <span>télos</span>
+        <img src={logo} alt="logo"/>
+        <span style={{color: `${color}`}}>télos</span>
     </div>
   )
 }
