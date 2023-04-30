@@ -8,7 +8,7 @@ export default function HeaderNews() {
   return (
     <div className='container-news'>
         <Logo color={'white'} logo={whiteLogo}/>
-        <ButtonHeader/>
+        <ButtonHeader color={'white'} background={'transparent'}/>
     </div>
   )
 }

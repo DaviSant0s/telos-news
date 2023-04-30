@@ -2,10 +2,10 @@ import React from 'react'
 import './index.css'
 import LogoutIcon from '@mui/icons-material/Logout';
 
-export default function ButtonHeader() {
+export default function ButtonHeader({color, background}) {
   return (
-    <button className='botao'>
-      <LogoutIcon style={{height: "15px", width: "15px", marginRight: "15px"}}/>
+    <button style={{color: `${color}`, backgroundColor: `${background}`}} className='botao'>
+      <LogoutIcon style={{height: "15px", width: "15px", marginRight: "15px", color: `${color}`}}/>
       Entrar
     </button>
   )
