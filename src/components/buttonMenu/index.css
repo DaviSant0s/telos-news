@@ -1,0 +1,16 @@
+button.botao{
+    background: #F3EDF7;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: None;
+    
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10.3301px 0px 2.58252px;
+    width: 120px;
+    height: 40px;
+}

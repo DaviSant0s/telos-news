@@ -17,13 +17,14 @@
 }
 
 .content-news{
-    height: 2em;
+    height: 5em;
     background-color: transparent;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: relative;
     z-index: 2;
+    align-items: center;
 }
 
 .gradient{
@@ -31,4 +32,59 @@
     height: 40%;
     position: absolute;
     background: linear-gradient(180deg, rgba(14, 26, 34, 0.5) 0%, rgba(69, 130, 169, 0) 100%);
+}
+
+.botao-menu{
+    background-color: transparent;
+    margin-left: 2em;
+}
+
+.botao-entrar{
+    background-color: transparent;
+    margin-right: 2em;
+}
+
+.burnout{
+    /* margin-top: 25em;
+    margin-left: 5em;
+    text-align: left; */
+
+    position: absolute;
+    width: 20em;
+    text-align: left;
+    height: 3em;
+    left: 240px;
+    top: 440px;
+    background-color: transparent;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 1em;
+
+    color: #0E1A22;
+}
+
+.usuario{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    left: 230px;
+    top: 561px;
+}
+
+.usuario > img{
+    width: 35px;
+    height: 35px;
+}
+
+.nome{
+    color: rgba(14, 26, 34, 0.7);
+    margin-right: 7em;
+    margin-left: 0.5em;
+}
+
+.duracao{
+    color: rgba(14, 26, 34, 0.7);
 }
