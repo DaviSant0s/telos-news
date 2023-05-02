@@ -1,0 +1,29 @@
+.text{
+    width: 50%;
+    background-color: white;
+
+}
+
+.text > p{
+    color: rgba(0, 0, 0, 0.452);
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.text > h2{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.text > p, h2{
+    text-align: left;
+}
+
+.text > img{
+    width: 540px;
+    height: 314px;
+    margin: 2em 0 1.5em 0;
+
+}

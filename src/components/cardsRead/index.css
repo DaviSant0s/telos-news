@@ -1,0 +1,14 @@
+.card-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.read > p{
+    text-align: left;
+}
+
+.card-content > img{
+    width: 86px;
+    height: 135px;
+}

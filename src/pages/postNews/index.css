@@ -1,4 +1,18 @@
 .post-container{
-    background-color: red;
-    width: 50vw;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    margin-top: 8em;
+    margin-bottom: 8em;
+    
+}
+
+.post-content{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    gap: 10%;
 }

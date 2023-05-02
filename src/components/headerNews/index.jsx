@@ -25,9 +25,7 @@ export default function HeaderNews() {
                 Burnout: você sabe lidar com o <br/>esgotamento profissional?
             </div>
         </div>
-        <div className='gradient'>
-                
-        </div>
+        <div className='gradient'></div>
         <div className='usuario'>
             <img src={usuario} alt="usuario" />
             <p className='nome'>John Doe</p>
