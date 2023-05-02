@@ -1,6 +1,13 @@
 .container-social{
     box-sizing: border-box;
 
+    /* ----- */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
     position: absolute;
     width: 55px;
     height: 245px;
@@ -10,4 +17,10 @@
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.07);
     border-radius: 19px;
+}
+
+.logo-social{
+    cursor: pointer;
+    margin: auto;
+    color: #A4A4A4;
 }

@@ -8,10 +8,10 @@ import './index.css';
 export default function SocialMedia() {
   return (
     <div className='container-social'>
-      <InstagramIcon/>
-      <LinkedInIcon/>
-      <YouTubeIcon/>
-      <ChatBubbleIcon/>
+      <InstagramIcon className='logo-social'/>
+      <LinkedInIcon className='logo-social'/>
+      <YouTubeIcon className='logo-social'/>
+      <ChatBubbleIcon className='logo-social'/>
     </div>
   )
 }
