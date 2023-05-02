@@ -8,10 +8,10 @@ import PostNews from './pages/postNews';
 function App() {
   return (
     <div className="App">
-      <HeaderNews/> 
-      <PostNews/> 
-      {/* <Header/>
-      <Home/> */}
+      {/* <HeaderNews/> 
+      <PostNews/>  */}
+      <Header/>
+      {/* <Home/> */}
       <Footer/>
     </div>
   );
