@@ -1,14 +1,54 @@
 .card-content{
     display: flex;
+    flex-direction: column;
+    gap: 2em;
+    background-color: transparent;
+}
+
+.title-read{
+    color: #353A3E;
+    text-align: left;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+
+    margin-bottom: 0.6em;
+
+}
+
+.img-card{
+    background-color: transparent;
+    display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left; 
+}
+
+.read{
+    margin-left: 1em;
 }
 
 .read > p{
     text-align: left;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.05em;
+    cursor: pointer;
+
+    color: #3D3D3D;
 }
 
-.card-content > img{
+.read > .title{
+    color: #353A3E;
+    cursor: pointer;
+    margin-bottom: -10px;
+}
+
+.img-card > img{
     width: 86px;
     height: 135px;
 }

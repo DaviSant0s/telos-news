@@ -8,7 +8,7 @@ export default function PostNews() {
   return (
     <div className='post-container'>
         <div className='post-content'>
-            {/* <SocialMedia/> */}
+            <SocialMedia/>
             <News/>
             <CardsRead/>
         </div>

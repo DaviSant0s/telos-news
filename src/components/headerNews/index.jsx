@@ -29,7 +29,7 @@ export default function HeaderNews() {
         <div className='usuario'>
             <img src={usuario} alt="usuario" />
             <p className='nome'>John Doe</p>
-            <p className='duracao'>Tempo de leitura: 10 minutos</p>
+            <p className='duracao'>Tempo de leitura: <b>10 minutos</b></p>
         </div>
     </div>
   )
