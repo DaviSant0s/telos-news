@@ -1,0 +1,13 @@
+.container-social{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 55px;
+    height: 245px;
+    left: 100px;
+    top: 816px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 19px;
+}
