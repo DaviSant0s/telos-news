@@ -1,0 +1,14 @@
+.footer{
+    background-color: rgba(46, 46, 90, 0.808);
+    width: 100%;
+    height: 3em;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

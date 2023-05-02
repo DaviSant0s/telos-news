@@ -51,4 +51,5 @@
 .img-card > img{
     width: 86px;
     height: 135px;
+    cursor: pointer;
 }
