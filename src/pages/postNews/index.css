@@ -16,3 +16,18 @@
     width: 80%;
     gap: 10%;
 }
+
+.absoluto{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 1em;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.377);
+    cursor: pointer;
+}
